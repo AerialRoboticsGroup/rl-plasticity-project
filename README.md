@@ -1,5 +1,5 @@
-# RL Plasticity Website
+# Maintaining Plasticity in Reinforcement Learning: A Cost-Aware Framework for Aerial Robot Control in Non-stationary Environments
 
-Code is comming soon
+Website repo for Maintaining Plasticity in Reinforcement Learning: A Cost-Aware Framework for Aerial Robot Control in Non-stationary Environments
 
-[link to website](123)
+[link to website](https://aerialroboticsgroup.github.io/rl-plasticity-project/)
