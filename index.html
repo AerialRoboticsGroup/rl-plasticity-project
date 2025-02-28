@@ -225,8 +225,26 @@
                     <h2 class="title is-3">💡Abstract</h2>
                     <div class="content has-text-justified">
                         <p style="font-size: 110%">
-                           Reinforcement learning (RL) has demonstrated the ability to maintain the plasticity of the policy throughout short-term training in aerial robot control. However, these policies have been shown to <span style="font-weight: bold">loss of plasticity</span> when extended to long-term learning in non-stationary environments. For example, the standard proximal policy optimization (PPO) policy is observed to collapse in long-term training settings and lead to significant control performance degradation. To address this problem, this work proposes a cost-aware framework that uses a <span style="font-weight: bold">retrospective cost mechanism (RECOM)</span> to balance rewards and losses in RL training with a <span style="font-weight: bold">non-stationary environment</span>. Using a cost gradient relation between rewards and losses, our framework dynamically updates the learning rate to continually train the control policy in a disturbed wind environment. Our experimental results show that our framework learned a policy for the hovering task without policy collapse and activated more dormant units in variable wind conditions.
-                        </p>
+<!--                            Reinforcement learning (RL) has demonstrated the ability to maintain the plasticity of the policy throughout short-term training in aerial robot control. However, these policies have been shown to <span style="font-weight: bold">loss of plasticity</span> when extended to long-term learning in non-stationary environments. For example, the standard proximal policy optimization (PPO) policy is observed to collapse in long-term training settings and lead to significant control performance degradation. To address this problem, this work proposes a cost-aware framework that uses a <span style="font-weight: bold">retrospective cost mechanism (RECOM)</span> to balance rewards and losses in RL training with a <span style="font-weight: bold">non-stationary environment</span>. Using a cost gradient relation between rewards and losses, our framework dynamically updates the learning rate to continually train the control policy in a disturbed wind environment. Our experimental results show that our framework learned a policy for the hovering task without policy collapse and activated more dormant units in variable wind conditions. -->
+Reinforcement learning (RL) has demonstrated
+the ability to maintain the plasticity of the policy throughout
+short-term training in aerial robot control. However, these
+policies have been shown to <span style="font-weight: bold">loss of plasticity</span> when extended
+to long-term learning in <span style="font-weight: bold">non-stationary environments</span>. For
+example, the standard proximal policy optimization (PPO)
+policy is observed to collapse in long-term training settings
+and lead to significant control performance degradation. To
+address this problem, this work proposes a cost-aware framework
+that uses a <span style="font-weight: bold">retrospective cost mechanism (RECOM)</span>
+to balance rewards and losses in RL training with a nonstationary
+environment. Using a cost gradient relation between
+rewards and losses, our framework dynamically updates the
+learning rate to actively train the control policy in a disturbed
+wind environment. Our experimental results show that our
+framework learned a policy for the hovering task without policy
+collapse in variable wind conditions and has a successful result
+of 11.72% less dormant units than L2 regularization with PPO.                        
+			</p>
 			    <br>
 			    <img src="./static/recom_teaser.png" alt="Your image description" style="display: block; margin-left: auto; margin-right: auto; width: auto;">
 			    <p style="font-size: 80%">Illustration of aerial robot hovering from different initial positions under variable wind conditions</p>
